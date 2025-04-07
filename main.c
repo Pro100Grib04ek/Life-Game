@@ -277,7 +277,7 @@ int main()
 					printf("Цикл обнаружен!\n");
 					printf("Итерация: %d\n", ind + 1);
 					printf("Длина цикла: %d\n", ind - i);
-					Sleep(1500);
+					Sleep(2500);
 					goto play;
 				}
 			}
@@ -293,7 +293,7 @@ int main()
 	while (1)
 	{
 		print_field(field);
-		Sleep(650);
+		Sleep(500);
 		upgrade_field(*field);
 		system("cls");
 	}
