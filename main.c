@@ -5,6 +5,7 @@
 #include <inttypes.h>
 #include <locale.h>
 #include <wchar.h>
+#include <time.h>
 #pragma warning(disable : 4996)
 
 int field_size; // Размер поля
@@ -497,7 +498,7 @@ int main()
 			{
 				printf("Цикл: %d", (iter-1)%cycle_len + 1);
 			}
-			Sleep(600);
+			Sleep(3000);
 			system("cls");
 		}
 	} 
